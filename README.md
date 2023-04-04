@@ -4,7 +4,7 @@ This is a sample React application that displays a list of users and allows you 
 **Installation**
 
 1. Clone this repository to your local machine.
-2. Navigate to the project directory: **cd my-react-app.**
+2. Navigate to the project directory: **cd react-code-test.**
 3. Install the dependencies: **npm install**.
 
 
