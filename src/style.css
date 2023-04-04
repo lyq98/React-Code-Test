@@ -1,0 +1,75 @@
+/* styles.css */
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.UserLists {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.UserLists h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.UserLists table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.UserLists th,
+.UserLists td {
+  padding: 0.75rem;
+  vertical-align: middle;
+  border-top: 1px solid #dee2e6;
+}
+
+.UserLists th {
+  font-weight: 600;
+  text-align: middle;
+  background-color: #f2f2f2;
+}
+
+.UserLists table tbody tr:nth-of-type(even) {
+  background-color: #f9f9f9;
+}
+
+.UserLists table-hover tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.UserLists table-sm th,
+.UserLists table-sm td {
+  padding: 0.3rem;
+}
+
+.UserLists table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+@media (max-width: 575.98px) {
+  .table-responsive-sm {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  .table-responsive-sm > .table-bordered {
+    border: 0;
+  }
+}
