@@ -6,4 +6,7 @@
     "react-bootstrap": "2.7.2",
     "react-bootstrap-pagination-control": "1.0.5"
   }
+  "scripts": {
+    "test": "jest __tests__"
+  },
 }
